@@ -51,7 +51,7 @@
 #
 # count = len(student['assignment']) + len(student['test']) + len(student['lab'])
 #
-# student['Adam'] = count
+# student['name'] = count
 # print(student)
 # 2.3
 # student = {
@@ -80,12 +80,12 @@
 #     {'name': 'Kevin', 'assignment': [82, 30], 'test': [], 'lab': [78.2]}
 # ]
 #
-# submission_rate = {}
+# rate = {}
 # for student in students:
-#     submission_count = len(student['assignment']) + len(student['test']) + len(student['lab'])
-#     submission_rate[student['name']] = submission_count
+#     count = len(student['assignment']) + len(student['test']) + len(student['lab'])
+#     rate[student['name']] = count
 #
-#     if submission_count >= 4:
+#     if count >= 4:
 #         avg_assignment = sum(student['assignment']) / len(student['assignment']) if student['assignment'] else 0
 #         avg_test = sum(student['test']) / len(student['test']) if student['test'] else 0
 #         avg_lab = sum(student['lab']) / len(student['lab']) if student['lab'] else 0
@@ -95,7 +95,7 @@
 #
 #     student['final_grade'] = round(final_grade, 2)
 #
-# print("submission_rate =", submission_rate)
+# print("rate =", rate)
 # for student in students:
 #     print(student)
 
