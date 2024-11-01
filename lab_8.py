@@ -1,8 +1,7 @@
 # 1.1
-# user_input = input("text: ")
-# char_list = list(user_input.lower())
-# print( char_list)
-from itertools import count
+user_input = input("text: ")
+char_list = list(user_input.lower())
+print( char_list)
 
 # 1.2
 # user_list = input("text: ")
