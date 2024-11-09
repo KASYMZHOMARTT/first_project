@@ -49,8 +49,17 @@ import operator
 # Find the three keys with the highest values in the dictionary
 # my_dict = {'a':500, 'b':5874, 'c': 560,'d':400, 'e':5874, 'f': 20}
 
-my_dict = {'a':500, 'b':5874, 'c': 560,'d':400, 'e':5874, 'f': 20}
-
+# my_dict = {'a':500, 'b':5874, 'c': 560,'d':400, 'e':5874, 'f': 20}
+#
+# keys = sorted(my_dict, key=my_dict.get, reverse=True)[:3]
+# print(keys)
 
 # Task 6
 # Write a code that converts an integer into a string, despite the fact that it can be used in any number system.
+
+
+# Task 7
+# You need to print the first n lines of Pascal's triangle. In this triangle, there are units at the top and
+# on the sides, and each number inside is equal to the sum of the two numbers above it.
+
+
