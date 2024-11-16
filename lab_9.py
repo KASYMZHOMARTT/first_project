@@ -57,9 +57,26 @@ import operator
 # Task 6
 # Write a code that converts an integer into a string, despite the fact that it can be used in any number system.
 
+# z=input()
+# x=int(input())
+# if x in (2, 8, 16, 36):
+#     print(int(z,x))
 
 # Task 7
 # You need to print the first n lines of Pascal's triangle. In this triangle, there are units at the top and
 # on the sides, and each number inside is equal to the sum of the two numbers above it.
-
+# n = int(input("n: "))
+#
+# triangle = []
+#
+# for i in range(n):
+#     row = [1]
+#     if triangle:
+#         for j in range(1, len(triangle[-1])):
+#             row.append(triangle[-1][j - 1] + triangle[-1][j])
+#         row.append(1)
+#     triangle.append(row)
+#
+# for i in triangle:
+#  print(i)
 
